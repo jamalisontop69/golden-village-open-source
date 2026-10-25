@@ -1,0 +1,69 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>GoldVillage</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="GoldVillage.images.000.png" />
+    <None Remove="GoldVillage.images.100.png" />
+    <None Remove="GoldVillage.images.TSGVillage-Icon.png" />
+    <None Remove="GoldVillage.images.ToughUrchins-Icon.png" />
+    <None Remove="GoldVillage.images.200.png" />
+    <None Remove="GoldVillage.images.ToughUrchins3-Icon.png" />
+    <None Remove="GoldVillage.images.ToughUrchins3-Portrait.png" />
+    <None Remove="GoldVillage.images.KindaBuffs-Icon.png" />
+    <None Remove="GoldVillage.images.TargettedBuffs-Icon.png" />
+    <None Remove="GoldVillage.images.SupportAbilities-Icon.png" />
+    <None Remove="GoldVillage.images.SupportAbilities-Portrait.png" />
+    <None Remove="GoldVillage.images.KindaBuffs-Portrait.png" />
+    <None Remove="GoldVillage.images.TargettedBuffs-Portrait.png" />
+    <None Remove="GoldVillage.images.GeraldoGoodness-Icon.png" />
+    <None Remove="GoldVillage.images.EmbrittleReplica-Icon.png" />
+    <None Remove="GoldVillage.images.StackingSimulator-Icon.png" />
+    <None Remove="GoldVillage.images.brew.png" />
+    <None Remove="GoldVillage.images.MonkeyBoost-Icon.png" />
+    <None Remove="GoldVillage.images.Totem-Icon.png" />
+    <None Remove="GoldVillage.images.Calc-Icon.png" />
+    <None Remove="GoldVillage.images.Selfclock-Icon.png" />
+    <EmbeddedResource Include="GoldVillage.images.000.png" LogicalName="GoldVillage.images.000.png" />
+    <EmbeddedResource Include="GoldVillage.images.100.png" LogicalName="GoldVillage.images.100.png" />
+    <EmbeddedResource Include="GoldVillage.images.TSGVillage-Icon.png" LogicalName="GoldVillage.images.TSGVillage-Icon.png" />
+    <EmbeddedResource Include="GoldVillage.images.ToughUrchins-Icon.png" LogicalName="GoldVillage.images.ToughUrchins-Icon.png" />
+    <EmbeddedResource Include="GoldVillage.images.200.png" LogicalName="GoldVillage.images.200.png" />
+    <EmbeddedResource Include="GoldVillage.images.ToughUrchins3-Icon.png" LogicalName="GoldVillage.images.ToughUrchins3-Icon.png" />
+    <EmbeddedResource Include="GoldVillage.images.ToughUrchins3-Portrait.png" LogicalName="GoldVillage.images.ToughUrchins3-Portrait.png" />
+    <EmbeddedResource Include="GoldVillage.images.KindaBuffs-Icon.png" LogicalName="GoldVillage.images.KindaBuffs-Icon.png" />
+    <EmbeddedResource Include="GoldVillage.images.TargettedBuffs-Icon.png" LogicalName="GoldVillage.images.TargettedBuffs-Icon.png" />
+    <EmbeddedResource Include="GoldVillage.images.SupportAbilities-Icon.png" LogicalName="GoldVillage.images.SupportAbilities-Icon.png" />
+    <EmbeddedResource Include="GoldVillage.images.SupportAbilities-Portrait.png" LogicalName="GoldVillage.images.SupportAbilities-Portrait.png" />
+    <EmbeddedResource Include="GoldVillage.images.KindaBuffs-Portrait.png" LogicalName="GoldVillage.images.KindaBuffs-Portrait.png" />
+    <EmbeddedResource Include="GoldVillage.images.TargettedBuffs-Portrait.png" LogicalName="GoldVillage.images.TargettedBuffs-Portrait.png" />
+    <EmbeddedResource Include="GoldVillage.images.GeraldoGoodness-Icon.png" LogicalName="GoldVillage.images.GeraldoGoodness-Icon.png" />
+    <EmbeddedResource Include="GoldVillage.images.EmbrittleReplica-Icon.png" LogicalName="GoldVillage.images.EmbrittleReplica-Icon.png" />
+    <EmbeddedResource Include="GoldVillage.images.StackingSimulator-Icon.png" LogicalName="GoldVillage.images.StackingSimulator-Icon.png" />
+    <EmbeddedResource Include="GoldVillage.images.brew.png" LogicalName="GoldVillage.images.brew.png" />
+    <EmbeddedResource Include="GoldVillage.images.MonkeyBoost-Icon.png" LogicalName="GoldVillage.images.MonkeyBoost-Icon.png" />
+    <EmbeddedResource Include="GoldVillage.images.Totem-Icon.png" LogicalName="GoldVillage.images.Totem-Icon.png" />
+    <EmbeddedResource Include="GoldVillage.images.Calc-Icon.png" LogicalName="GoldVillage.images.Calc-Icon.png" />
+    <EmbeddedResource Include="GoldVillage.images.Selfclock-Icon.png" LogicalName="GoldVillage.images.Selfclock-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MelonLoader" />
+    <Reference Include="BloonsTD6 Mod Helper" />
+    <Reference Include="Assembly-CSharp" />
+    <Reference Include="Il2CppInterop.Runtime" />
+    <Reference Include="System.Core">
+      <HintPath>../../../../opt/dotnet/shared/Microsoft.NETCore.App/8.0.31/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib" />
+    <Reference Include="Il2CppNinjaKiwi.Common" />
+  </ItemGroup>
+</Project>
